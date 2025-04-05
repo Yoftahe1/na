@@ -106,7 +106,7 @@ const Create = () => {
       return;
     } else if (
       !timestamp ||
-      Object.keys(timestamp).length !== content.split(" ").length
+      Object.keys(timestamp).length <= content.split(" ").length
     ) {
       setError("Please set timestamp.");
       return;
