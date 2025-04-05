@@ -8,8 +8,8 @@ const config: LooseObject = {
     API_VERSION: '',
   },
   production: {
-    API_URL: '',
-    API_VERSION: 'v1',
+    API_URL: 'https://nb-c842.onrender.com/api',
+    API_VERSION: '',
   },
 };
 
